@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css">
+        <title>EZTyping - HTML</title>
+        <meta name="author" content="Seppe Maes" />
+</head>
+    <body class="student2 navbar-placement">
+        <header>
+             <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                 <div class="container-fluid">
+                     <a class="navbar-brand logo is-active" href="index.html">
+                         <img src="assets/logo.png" alt="EZT logo" width="45" height="36" />
+                     </a>
+                     <button
+                         class="hamburger"
+                         type="button"
+                         data-bs-toggle="collapse"
+                         data-bs-target="#navbarNav"
+                         aria-controls="navbarNav"
+                         aria-expanded="false"
+                         aria-label="Toggle navigation"
+                     >
+                         <span></span>
+                         <span></span>
+                         <span></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarNav">
+                         <ul class="navbar-nav ms-auto">
+                             <li class="nav-item">
+                                 <a class="nav-link" href="student1page1.html">Lua</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a class="nav-link" href="student1page2.html">Java</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a class="nav-link active" href="student2page1.html">Html</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a class="nav-link" href="student2page2.html">Css</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a class="nav-link" href="student3page1.html">Python</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a class="nav-link" href="student3page2.html">C#</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a class="nav-link" href="student4page1.html">JavaScript</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a class="nav-link" href="student4page2.html">TypeScript</a>
+                             </li>
+                             <li class="nav-item">
+                                <button id="lightDarkSwitch" class="btn text-light" type="button">
+                                    <i id="darkIcon" class="fa-solid fa-sun"></i>
+                                </button>
+                              </li>
+                         </ul>
+                     </div>
+                 </div>
+             </nav>
+        </header>
+        <main class="flex-shrink-0 py-3">
+            <div class="container">
+                <div class="row">
+                        <h2 class="text-center">The Basic HTML course by EZTyping</h2>
+                        <small class="text-center"> Seppe Maes</small>
+                        <hr>
+                    <div class="col-sm-12 col-md-6">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h4>What's HTML?</h4>
+                        <hr>
+                        <p>HyperText Markup Language(HTML) is the basic programming language for websites.
+                            HTML is the biggest Markup Language still today and no other language has come close to overtake HTML.
+                            It was the first language used for building websites in the beginning of the internet. It's still used
+                            today for various reasons but most important ones are that they would have to rewrite the entire web sites
+                            and because it's easy to code and understand. HTML is a sipmle language for beginners to learn how to program,
+                            it will open your vision into the programming world.
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <img class="img-fluid" src="assets/student2/html_logo.jpg" alt="HTML">
+                    </div>
+                </div>
+                <div class="border_switch"></div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-12 order-sm-1 col-md-6">
+                        <h4>Why learn HTML?</h4>
+                        <hr>
+                        <p>Like said in the intro HTML is the standard for building websites and getting to know programming.
+                            It's very easy to start with and to learn there is plenty of information to find online and teach you.
+                            Like us we will teach you the basics and essentials of HTML so you can start building your own websites.
+                        </p>
+                    </div>
+                    <div class="col-sm-12 order-sm-2 col-md-6">
+                        <img class="img-fluid" src="assets/student2/HTML_Blog-scaled.jpg" alt="Programming image">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <h4 class="text-center">Basic and Essentials</h4>
+                    <hr>
+                    <div class="col-sm-12 col-md-6 basic-essentials">
+                            <h5 class="text-center">Basic Tags</h5>
+                            <hr>
+                            <ul>
+                                <li><button type="button" class="collapsible">&lt;h1&gt; &lt;/h1&gt;</button>
+                                    <div class="content">
+                                        <p>(Heading 1 is used for titles H1 is the biggest we have h1-h6)</p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;div&gt; &lt;/div&gt;</button>
+                                    <div class="content">
+                                        <p>(Define a division or certain section of the page you can change this specific part)</p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;ul&gt; &lt;/ul&gt;</button>
+                                    <div class="content">
+                                    <p>(Unordered  list this will create a unordered  list)</p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;ol&gt; &lt;/ol&gt;</button>
+                                    <div class="content">
+                                        <p>(Ordered  list this will create an ordered  list)</p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;li&gt; &lt;/li&gt;</button>
+                                    <div class="content">
+                                        <p>(List this will create a listing within the un/ordered  list)</p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;p&gt; &lt;/p&gt;</button>
+                                    <div class="content">
+                                        <p>(Paragraph this a paragraph tag you can type your text in here)</p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;/a href&gt;</button>
+                                    <div class="content">
+                                        <p>(This a link tag where you can click on to be navigated to another page or part of the page)</p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;/br&gt;</button>
+                                    <div class="content">
+                                        <p>(Break this will leave an enter in the page)</p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;tr&gt; &lt;/tr&gt;</button>
+                                    <div class="content">
+                                        <p>(Table row this will create a table row )</p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;td&gt; &lt;/td&gt;</button>
+                                    <div class="content">
+                                        <p>(Table content this tag places content within tr)</p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;/hr&gt;</button>
+                                    <div class="content">
+                                        <p>(This is almost the same as a break but this will add a line to seperate two contents)</p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;/img&gt;</button>
+                                    <div class="content">
+                                        <p>(Image tag here you can place your link of the image so you can add images to your page)</p>
+                                    </div>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-6 basic-essentials">
+                            <h5 class="text-center">Essentials</h5>
+                            <hr>
+                            <ul>
+                                <li><button type="button" class="collapsible">&lt;! DOCTYPE html&gt;</button>
+                                    <div class="content">
+                                        <p>(This will define the document type in this case html)<br>
+                                            &lt;! DOCTYPE html&gt;
+                                        </p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;html&gt; &lt;/html&gt;</button>
+                                    <div class="content">
+                                        <p>(This is the building tag for a HTML page you incorporate all your content between here)<br>
+                                            &lt;! DOCTYPE html&gt;<br>
+                                            &lt;html&gt;<br>
+                                            &lt;/html&gt;
+                                        </p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;head&gt; &lt;/head&gt;</button>
+                                    <div class="content">
+                                        <p>(The head tag only contains other tags which defain the content of the page)<br>
+                                            &lt;! DOCTYPE html&gt;<br>
+                                            &lt;html&gt;<br>
+                                            &lt;head&gt; &lt;/head&gt;<br>
+                                            &lt;/html&gt;
+                                        </p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;title&gt; &lt;/title&gt;</button>
+                                    <div class="content">
+                                        <p>(The title will be seen on top in the tab of the website)<br>
+                                            &lt;! DOCTYPE html&gt;<br>
+                                            &lt;html&gt;<br>
+                                            &lt;head&gt;<br>
+                                            &lt;title&gt; &lt;/title&gt;<br>
+                                            &lt;/head&gt;<br>
+                                            &lt;/html&gt;
+                                        </p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;body&gt; &lt;/body&gt;</button>
+                                    <div class="content">
+                                        <p>(The body tag this is where all the content of the page will be placed in)<br>
+                                            &lt;! DOCTYPE html&gt;<br>
+                                            &lt;html&gt;<br>
+                                            &lt;head&gt;<br>
+                                            &lt;title&gt; &lt;/title&gt;<br>
+                                            &lt;/head&gt;<br>
+                                            &lt;body&gt;<br>
+                                            &lt;/body&gt;<br>
+                                            &lt;/html&gt;
+                                        </p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;header&gt; &lt;/header&gt;</button>
+                                    <div class="content">
+                                        <p>(The header is the top of the page where you can place the navbar)<br>
+                                            &lt;! DOCTYPE html&gt;<br>
+                                            &lt;html&gt;<br>
+                                            &lt;head&gt;<br>
+                                            &lt;title&gt; &lt;/title&gt;<br>
+                                            &lt;/head&gt;<br>
+                                            &lt;body&gt;<br>
+                                            &lt;header&gt;<br>
+                                            &lt;/header&gt;<br>
+                                            &lt;/body&gt;<br>
+                                            &lt;/html&gt;
+                                        </p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;nav&gt; &lt;/nav&gt;</button>
+                                    <div class="content">
+                                        <p>(The navbar is a bar with links to different parts of the websites )<br>
+                                            &lt;! DOCTYPE html&gt;<br>
+                                            &lt;html&gt;<br>
+                                            &lt;head&gt;<br>
+                                            &lt;title&gt; &lt;/title&gt;<br>
+                                            &lt;/head&gt;<br>
+                                            &lt;body&gt;<br>
+                                            &lt;header&gt;<br>
+                                            &lt;nav&gt; &lt;/nav&gt;<br>
+                                            &lt;/header&gt;<br>
+                                            &lt;/body&gt;<br>
+                                            &lt;/html&gt;
+                                        </p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;main&gt; &lt;/main&gt;</button>
+                                    <div class="content">
+                                        <p>(This is where all of your text and titles will be placed and content)<br>
+                                            &lt;! DOCTYPE html&gt;<br>
+                                            &lt;html&gt;<br>
+                                            &lt;head&gt;<br>
+                                            &lt;title&gt; &lt;/title&gt;<br>
+                                            &lt;/head&gt;<br>
+                                            &lt;body&gt;<br>
+                                            &lt;header&gt;<br>
+                                            &lt;nav&gt; &lt;/nav&gt;<br>
+                                            &lt;/header&gt;<br>
+                                            &lt;main&gt; &lt;/main&gt;<br>
+                                            &lt;/body&gt;<br>
+                                            &lt;/html&gt;
+                                        </p>
+                                    </div>
+                                </li>
+                                <li><button type="button" class="collapsible">&lt;footer&gt; &lt;/footer&gt;</button>
+                                    <div class="content">
+                                        <p>(This is the bottom of the page where links to socials or addresses will be)<br>
+                                            &lt;! DOCTYPE html&gt;<br>
+                                            &lt;html&gt;<br>
+                                            &lt;head&gt;<br>
+                                            &lt;title&gt; &lt;/title&gt;<br>
+                                            &lt;/head&gt;<br>
+                                            &lt;body&gt;<br>
+                                            &lt;header&gt;<br>
+                                            &lt;nav&gt; &lt;/nav&gt;<br>
+                                            &lt;/header&gt;<br>
+                                            &lt;main&gt; &lt;/main&gt;<br>
+                                            &lt;footer&gt; &lt;/footer&gt;<br>
+                                            &lt;/body&gt;<br>
+                                            &lt;/html&gt;
+                                        </p>
+                                    </div>
+                                </li>
+                           </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!-- Section: Social media -->
+                <div>
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-circle m-1" href="https://www.facebook.com/" target="_blank" role="button">
+                        <i class="fab fa-facebook-f" id="facebook-offset"></i>
+                    </a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-circle m-1" href="https://twitter.com/" target="_blank" role="button">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <!-- Google -->
+                    <a class="btn btn-outline-light btn-circle m-1" href="https://www.google.be/" target="_blank" role="button">
+                        <i class="fab fa-google"></i>
+                    </a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-circle m-1" href="https://www.instagram.com/" target="_blank" role="button">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-outline-light btn-circle m-1" href="https://nl.linkedin.com/" target="_blank" role="button">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <!-- Github -->
+                    <a class="btn btn-outline-light btn-circle m-1" href="https://github.com/itfactory-tm/WebAdv-22-team-305" target="_blank" role="button">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+
+                <button type="button" class="btn btn-lg" id="btn-back-to-top">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center p-3" id="footerthomas">
+                <a href="https://www.thomasmore.be/" target="_blank" id="thomastext" class="link-light">&copy; Thomas More</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/student1page1.js"></script>
+        <script src="js/student2page1.js"></script>
+        <script src="js/student2page2.js"></script>
+        <script src="js/student4page1.js"></script>
+    </body>
+</html>

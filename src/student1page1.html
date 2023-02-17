@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>EZTyping - Lua</title>
+        <meta name="author" content="Sohaib Ibenhajene" />
+    </head>
+    <body class="student1 navbar-placement">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand logo is-active" href="index.html">
+                        <img src="assets/logo.png" alt="EZT logo" width="45" height="36" />
+                    </a>
+                    <button
+                        class="hamburger"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="student1page1.html">Lua</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="student1page2.html">Java</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="student2page1.html">Html</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="student2page2.html">Css</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="student3page1.html">Python</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="student3page2.html">C#</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="student4page1.html">JavaScript</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="student4page2.html">TypeScript</a>
+                            </li>
+                            <li class="nav-item">
+                                <button id="lightDarkSwitch" class="btn text-light" type="button">
+                                    <i id="darkIcon" class="fa-solid fa-sun"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="flex-shrink-0 py-4">
+            <div class="container">
+                <h1>The ultimate Lua course with EZTyping</h1>
+                <small>by: Sohaib Ibenhajene</small>
+                <hr>
+
+                <div class="mb-5">
+                    <h2>Introduction</h2>
+                    <p>
+                        Lua is a high-level, lightweight, interpreted programming language designed by Tecgraf at PUC-Rio in 1993.
+                        It was originally created to expand general applications, to join multiple parts of a program that were written in different languages.
+                        It is often embedded in complex software such as games.
+                    </p>
+                    <p>
+                        Lua was originally created by a group of developers from PUC-Rio, to be used in a Petrobas project.
+                        The language quickly gained popularity because of it's efficiency, clarity and ease of learning.
+                        It gained a lot of recognition when it started to be used by big game development companies such as Blizzard Entertainment, they used it in the game World of Warcraft.
+                        A lot of regular programmers also started to implement Lua because it is often used as a general purpose language.
+                    </p>
+                </div>
+
+                <img src="assets/student1/Lua.jpg" alt="Lua" class="mb-5 mw-100">
+
+                <div class="row mb-5">
+                    <h2 class="text-center mb-5">Features</h2>
+                    <div class="col-md-4 text-center mb-4">
+                        <i class="fa-solid fa-code fontawesome-image mb-4"></i>
+                        <h5>Simple</h5>
+                        <div class="fontawesome-text m-auto">
+                            <p>
+                                Lua is a simple language, it is easy to learn and use.
+                                Because you do not have to enter semi-colons, <span id="text1" class="d-none">you do not have to scope variables,
+                                you can write all of your functions in the global scope.</span>
+                            </p>
+                        </div>
+                        <button type="button" class="btn purple-buttons" id="button1">Read More</button>
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <i class="fa-solid fa-gear fontawesome-image mb-4"></i>
+                        <h5>Efficient</h5>
+                        <div class="fontawesome-text m-auto">
+                            <p>
+                                Lua is a very efficient language, it is very fast to execute.
+                                Compared to other languages, <span id="text2" class="d-none">it is very efficient to write and execute.
+                                Making it sometimes 4 to 8 times faster than other languages.</span>
+                            </p>
+                        </div>
+                        <button type="button" class="btn purple-buttons" id="button2">Read More</button>
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <i class="fa-solid fa-up-right-and-down-left-from-center fontawesome-image mb-4"></i>
+                        <h5>Extensible</h5>
+                        <div class="fontawesome-text m-auto">
+                            <p>
+                                Lua is extensible, it is easy to add new functions and variables.
+                                It is easy to add new libraries, <span id="text3" class="d-none">and add new features to the language.
+                                It is also able to combine the best of existing languages.</span>
+                            </p>
+                        </div>
+                        <button type="button" class="btn purple-buttons" id="button3">Read More</button>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col-lg-5 mb-4">
+                        <h2>Game Development</h2>
+                        <p>
+                            Lua is popular because of how well it can handle game development.
+                            It can easily be used for advanced functionality while improving the speed and efficiency of the application.
+                            There are a lot of very famous games that have been developed using Lua such as Garry's mod, Saints Row, Far Cry, ...
+                        </p>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div id="carouselGames" class="carousel slide" data-bs-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-bs-target="#carouselGames" data-bs-slide-to="0" class="active"></li>
+                                <li data-bs-target="#carouselGames" data-bs-slide-to="1"></li>
+                                <li data-bs-target="#carouselGames" data-bs-slide-to="2"></li>
+                                <li data-bs-target="#carouselGames" data-bs-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="5000">
+                                    <img src="assets/student1/WorldOfWarCraft.png" class="d-block mx-auto games-image" alt="World of Warcraft">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="assets/student1/Garry's_mod.jpg" class="d-block mx-auto games-image" alt="Garry's Mod">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="assets/student1/SaintsRow.jpg" class="d-block mx-auto games-image" alt="Saints Row">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="assets/student1/FarCry.jpg" class="d-block mx-auto games-image" alt="Far Cry">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev text-decoration-none" href="#carouselGames" data-bs-slide="prev">
+                                <i class="fa-solid fa-circle-chevron-left fs-1"></i>
+                            </a>
+
+                            <a class="carousel-control-next text-decoration-none" href="#carouselGames" data-bs-slide="next">
+                                <i class="fa-solid fa-circle-chevron-right fs-1"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div>
+                    <h2>Why Lua?</h2>
+                    <p class="mb-0">
+                        It is a very difficult decision to choose your first programming language, well we are here to make that decision easier.
+                        Are you relatively new to programming and want to ease into the world of programming and coding?
+                        Then Lua is the perfect language for you, it can not only be used for game development, you have a world of possibilities with Lua.
+                        Lua is one of the easiest languages to learn, it is always handy to have that skill that others don't possess which could land you a job at a big company.
+                        Learn sooner and not later! We at EZTyping are willing to do everything to make you a successful programmer.
+                    </p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!-- Section: Social media -->
+                <div>
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-circle m-1" href="https://www.facebook.com/" target="_blank" role="button">
+                        <i class="fab fa-facebook-f" id="facebook-offset"></i>
+                    </a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-circle m-1" href="https://twitter.com/" target="_blank" role="button">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <!-- Google -->
+                    <a class="btn btn-outline-light btn-circle m-1" href="https://www.google.be/" target="_blank" role="button">
+                        <i class="fab fa-google"></i>
+                    </a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-circle m-1" href="https://www.instagram.com/" target="_blank" role="button">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-outline-light btn-circle m-1" href="https://nl.linkedin.com/" target="_blank" role="button">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <!-- Github -->
+                    <a class="btn btn-outline-light btn-circle m-1" href="https://github.com/itfactory-tm/WebAdv-22-team-305" target="_blank" role="button">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+
+                <button type="button" class="btn btn-lg" id="btn-back-to-top">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" id="footerthomas">
+                <a href="https://www.thomasmore.be/" target="_blank" id="thomastext" class="link-light">&copy; Thomas More</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+        <script src="js/student1page1.js"></script>
+        <script src="js/student2page1.js"></script>
+        <script src="js/student4page1.js"></script>
+    </body>
+</html>

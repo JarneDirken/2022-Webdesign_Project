@@ -1,0 +1,73 @@
+.student1 {
+  // Name student 1: Sohaib Ibenhajene
+  p {
+    text-align: justify;
+  }
+
+  .fontawesome-image{
+    font-size: 5em;
+  }
+
+  .fontawesome-text{
+    width: 70%;
+
+    @media only screen and (max-width: 1399px) {
+      p{
+        text-align: center;
+      }
+    }
+    @media only screen and (max-width: 767px) {
+      p{
+        text-align: justify;
+      }
+    }
+  }
+
+  .games-image{
+    max-height: 200px;
+
+    @media only screen and (max-width: 767px) {
+      &.mw-sm-100{
+        max-width: 100%!important;
+      }
+    }
+    @media only screen and (max-width: 550px) {
+      max-height: 160px;
+    }
+    @media only screen and (max-width: 423px) {
+      max-height: 130px;
+    }
+    @media only screen and (max-width: 380px) {
+      max-width: 100%;
+    }
+  }
+
+  .carousel-indicators{
+    bottom: -3em;
+
+    li, li.active {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin: 4px;
+      border: none;
+      background: $footer_color;
+    }
+  }
+
+  .carousel-control-next i, .carousel-control-prev i {
+    color: $footer_color;
+  }
+
+  .purple-buttons{
+    background-color: $footer_color;
+    top: 3em;
+  }
+
+  @media only screen and (max-width: 1399px) {
+    #carouselGames{
+      margin-top: 3rem;
+    }
+  }
+
+}
