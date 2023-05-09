@@ -11,4 +11,4 @@
 
 - **GitHub Repo**: [https://github.com/itfactory-tm/WebAdv-22-team-305](https://github.com/itfactory-tm/WebAdv-22-team-305)
 - **Netlify Hosting**: [https://eztyping.netlify.app/](https://eztyping.netlify.app/)
-# HG1-Webdesign-EindProject
+# 1e Jaar-Hoge_School-Webdesign-EindProject
